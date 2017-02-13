@@ -3,10 +3,21 @@
 // the two variables are equal
 var first = 3;
 var second = 5;
-
+if (first == second) {
+  console.log('Hello');
+} else {
+  console.log('Goodbye');
+};
 // 2 - Expand your answer above to
 // console log "Goodbye" if
 // the variables are not equal
+if (first > second) {
+  var third = first + second;
+  console.log(third);
+} else if (second > first) {
+  var third = second - first;
+  console.log(third);
+}
 
 // 3 - Write a statement that
 // assigns the value of the addition
