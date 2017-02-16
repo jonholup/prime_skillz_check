@@ -12,6 +12,12 @@ for (var i = 0; i < 5; i++) {
 for (var i = 0; i < 3; i++) {
   checkz -= 2;
 }
+//redo
+while(i < 3) {
+  checks -= 2;
+  i++;
+}
+
 // 3 - Summarize in English what this code is doing.
 // Use a multiline comment to do so.
 //

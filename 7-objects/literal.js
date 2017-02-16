@@ -7,7 +7,8 @@
 // address.
 var prime = {city:'Bloomington',
              state: 'Minnesota',
-             zip: 55431};
+             zip: 55431
+            };
 // 2 - Using dot notation, create a
 // new property for prime. This property
 // will be called address and will
@@ -21,5 +22,11 @@ prime.address = '9401 James Ave S #152'
 // property/method print.
 prime.print = function () {
   console.log(prime.city, prime.state, prime.zip, prime.address);
+}
+prime.print();
+
+//redo
+prime.print = function () {
+  console.log(this.city, this.state, this.zip, this.address);
 }
 prime.print();

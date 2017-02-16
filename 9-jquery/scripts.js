@@ -5,6 +5,7 @@
 	$(document).ready(function(){
 		$('.section').append('<p>Page loaded</p>');
     $('h1').text('hihihi');
+		$('li > h2').parent().parent().remove();
 
 
 

@@ -12,4 +12,4 @@ git remote add origin https://github.com/PrimeAcademy/my-new-repo.git
 # Type the command for pushing all commits stored locally to the remote repo nicknamed origin
 git push
 # Type the command to remove a file from the staging area
-git reset
+git reset <filename>
